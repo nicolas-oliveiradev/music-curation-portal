@@ -38,7 +38,7 @@ WHERE id = {{ Table1.updatedRow.id ?? Table1.selectedRow.id }};
 
 `??` null (JavaScript): Converte estados undefined (campos não alterados na célula) em nulos explícitos para o driver do PostgreSQL.
 
-###3. Gerenciamento Assíncrono de Estado
+### 3. Gerenciamento Assíncrono de Estado
 Integração de Promises JS nos manipuladores de eventos da tabela (update_musica.run()).
 
 Encadeamento de chamadas para recarregar o dataset dinamicamente (get_musics.run()).
@@ -54,7 +54,7 @@ Feedback visual contextualizado para o usuário via notificações (showAlert).
 | **Update (Editar)** | Células Editáveis (*Inline*) | Query SQL `UPDATE` parametrizada disparada no evento da coluna |
 | **Delete (Excluir)** | Botão de Ação por Linha | Query SQL `DELETE` parametrizada por `id` |
 
-##⚙️ Como Executar / Importar o Projeto
+## ⚙️ Como Executar / Importar o Projeto
 Clone este repositório ou faça o download do arquivo de backup JSON da aplicação.
 
 Acesse a sua conta no Appsmith.
@@ -77,7 +77,7 @@ CREATE TABLE musicas (
 );
 
 ```
-##✒️ Autor
+## ✒️ Autor
 Nicolas Oliveira
 
 Estudante de Engenharia de Software | Desenvolvedor com foco em Software Engineering, Análise de Dados e Soluções Web.
