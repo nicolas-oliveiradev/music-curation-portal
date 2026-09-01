@@ -6,11 +6,11 @@ Um portal de curadoria e gerenciamento de dados musicais desenvolvido para simul
 ## 🖼️ Interface Atual e Validações
 
 ### Dashboard & Tabela de Músicas
-[Tabela Principal e Edição Inline](LINK_DO_PRINT_1)
+![Tabela Principal e Edição Inline](./Interface%20Atual.jpeg)
 > *Tabela dinâmica vinculada ao PostgreSQL com suporte a ordenação, busca e edição direta de células.*
 
 ### Validação de Dados em Camadas (Fail-Fast)
-[Erro de Validação na Interface](LINK_DO_PRINT_2)
+![Erro de Validação na Interface](./Validações.jpeg)
 > *O próprio Appsmith impede a submissão de notas fora do intervalo 1-5, exibindo alerta antes da requisição ao banco.*
 ---
 ## 🚀 Tecnologias Utilizadas
