@@ -78,6 +78,6 @@ CREATE TABLE musicas (
 
 ```
 ## ✒️ Autor
-Nicolas Oliveira
+# Nicolas Oliveira
 
 Estudante de Engenharia de Software | Desenvolvedor com foco em Software Engineering, Análise de Dados e Soluções Web.
